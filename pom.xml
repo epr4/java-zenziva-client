@@ -10,17 +10,13 @@
 
 
     <dependencies>
+
         <dependency>
-            <groupId>com.google.android</groupId>
-            <artifactId>android</artifactId>
-            <version>4.1.1.4</version>
-            <scope>provided</scope>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>4.3.7.RELEASE</version>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.android</groupId>
-            <artifactId>spring-android-rest-template</artifactId>
-            <version>1.0.1.RELEASE</version>
-        </dependency>
+
         <dependency>
             <groupId>org.simpleframework</groupId>
             <artifactId>simple-xml</artifactId>
@@ -40,6 +36,8 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
     </dependencies>
+
 
 </project>
